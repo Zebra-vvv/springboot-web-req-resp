@@ -1,5 +1,12 @@
 package com.zebra.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class User {
     private Integer id;
     private String name;
@@ -7,6 +14,7 @@ public class User {
     private short gender;
     private String phone;
 
+/*
     public User(Integer id, String name, short age, short gender, String phone) {
         this.id = id;
         this.name = name;
@@ -68,4 +76,5 @@ public class User {
                 ", phone='" + phone + '\'' +
                 '}';
     }
+    */
 }

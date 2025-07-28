@@ -11,8 +11,8 @@
     <groupId>com.zebra</groupId>
     <artifactId>sprintboot-mybatis-quickstart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>sprintboot-mybatis-quickstart</name>
-    <description>sprintboot-mybatis-quickstart</description>
+    <name>springboot-mybatis-quickstart</name>
+    <description>springboot-mybatis-quickstart</description>
     <url/>
     <licenses>
         <license/>
@@ -52,6 +52,13 @@
             <version>3.0.4</version>
             <scope>test</scope>
         </dependency>
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>

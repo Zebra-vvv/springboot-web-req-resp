@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.List;
 
 @SpringBootTest //springboot整合单元测试的注解
-class SpringtbootMybatisQuickstartApplicationTests {
+class SpringbootMybatisQuickstartApplicationTests {
 
     @Autowired
     private UserMapper userMapper;
