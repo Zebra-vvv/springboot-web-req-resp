@@ -7,6 +7,17 @@ public class User {
     private short gender;
     private String phone;
 
+    public User(Integer id, String name, short age, short gender, String phone) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.phone = phone;
+    }
+
+    public User() {
+    }
+
     public Integer getId() {
         return id;
     }
